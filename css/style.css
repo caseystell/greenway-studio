@@ -1,0 +1,75 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Hanuman', serif;
+    color: #2C2C2C;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.gs-logo {
+    height: 7rem;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+footer > div {
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.accred-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 3rem;
+}
+
+.accred-logo {
+    padding: 0 1rem;
+}
+
+.accred-logo img {
+    height: 4rem;
+    width: auto;
+    border-radius: 5px;
+}
+
+/* @media (max-width: ) */
